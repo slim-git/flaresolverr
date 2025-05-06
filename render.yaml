@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flaresolverr
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: frankfurt
+    autoDeploy: true
+    httpPort: 8191
+
