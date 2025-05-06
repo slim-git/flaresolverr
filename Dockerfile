@@ -5,4 +5,3 @@ ENV FLARESOLVERR_API_KEY=${FLARESOLVERR_API_KEY}
 
 EXPOSE 8191
 
-CMD ["node", "src/FlareSolverr.js"]
